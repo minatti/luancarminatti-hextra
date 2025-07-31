@@ -1,0 +1,7 @@
+baseURL: https://minatti.github.io/luancarminatti-hextra/
+languageCode: pt-br
+title: Luan Carminatti
+theme: hextra
+
+
+publishDir: "docs"
