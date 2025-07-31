@@ -16,6 +16,8 @@
   </url><url>
     <loc>http://localhost:1313/luancarminatti-hextra/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/luancarminatti-hextra/i18n/</loc>
+  </url><url>
     <loc>http://localhost:1313/luancarminatti-hextra/tags/</loc>
   </url>
 </urlset>
