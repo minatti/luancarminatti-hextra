@@ -2,26 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/luancarminatti-hextra/blog/</loc>
-    <lastmod>2025-07-31T20:12:10-03:00</lastmod>
+    <loc>https://minatti.github.io/luancarminatti-hextra/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/blog/primeiro-post/</loc>
-    <lastmod>2025-07-31T20:12:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/projects/</loc>
-    <lastmod>2025-07-31T19:01:40-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/simple-books/</loc>
-    <lastmod>2025-07-31T18:47:50-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/about/</loc>
-    <lastmod>2025-07-31T17:16:42-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/</loc>
-    <lastmod>2025-07-31T18:47:50-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/tags/</loc>
+    <loc>https://minatti.github.io/luancarminatti-hextra/tags/</loc>
   </url>
 </urlset>
