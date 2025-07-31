@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>http://localhost:1313/luancarminatti-hextra/pt-br/sitemap.xml</loc>
-    
-      <lastmod>2025-07-31T19:01:40-03:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>http://localhost:1313/luancarminatti-hextra/en/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/luancarminatti-hextra/projects/</loc>
+    <lastmod>2025-07-31T19:01:40-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/luancarminatti-hextra/simple-books/</loc>
+    <lastmod>2025-07-31T18:47:50-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/luancarminatti-hextra/about/</loc>
+    <lastmod>2025-07-31T17:16:42-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/luancarminatti-hextra/</loc>
+    <lastmod>2025-07-31T18:47:50-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/luancarminatti-hextra/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/luancarminatti-hextra/tags/</loc>
+  </url>
+</urlset>

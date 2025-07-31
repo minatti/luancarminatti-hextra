@@ -15,10 +15,11 @@ languages:
     languageName: Português
     weight: 1
     title: Luan Carminatti
-  en:
-    languageName: English
-    weight: 2
-    title: Luan Carminattis
+  #Desabilitado até ajustar todo conteúdo
+  # en:
+  #   languageName: English
+  #   weight: 2
+  #   title: Luan Carminatti
 
 # Menu do topo de navegação
 menu:
