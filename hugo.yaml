@@ -9,10 +9,16 @@ publishDir: "docs"
 # Menu do topo de navegação
 menu:
   main:
-  - name: About
+  - name: Sobre
     pageRef: /about/
     weight: 1
-  - name: Search
+  - name: Projetos
+    pageRef: /projects/
+    weight: 2
+  - name: "Contato ↗"
+    url: "https://wa.me/5551981383678"
+    weight: 4
+  - name: Procurar
     weight: 5
     params:
       type: search
@@ -21,3 +27,4 @@ menu:
     url: "https://github.com/minatti"
     params:
       icon: github
+
