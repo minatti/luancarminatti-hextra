@@ -8,6 +8,18 @@ enableGitInfo: true
 enableRobotsTXT: true
 publishDir: "docs"
 
+# Idiomas suportados
+defaultContentLanguage: pt-br
+languages:
+  pt-br:
+    languageName: Português
+    weight: 1
+    title: Luan Carminatti
+  en:
+    languageName: English
+    weight: 2
+    title: Luan Carminattis
+
 # Menu do topo de navegação
 menu:
   main:
