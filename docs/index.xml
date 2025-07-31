@@ -14,5 +14,19 @@
       
     
     
+    <item>
+      <title>Primeiro Post</title>
+      <link>http://localhost:1313/luancarminatti-hextra/blog/primeiro-post/</link>
+      <pubDate>Thu, 31 Jul 2025 20:05:24 -0300</pubDate>
+      
+      <guid>http://localhost:1313/luancarminatti-hextra/blog/primeiro-post/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;strong&gt;Olá mundo!&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
