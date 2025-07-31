@@ -1,7 +1,7 @@
 ---
 date: '2025-07-31T16:30:53-03:00'
 draft: true
-title: 'Home'
+title: 'Início'
 ---
 
 👋 Olá! Seja bem-vindo!
@@ -25,7 +25,7 @@ e conectar pessoas com interesses semelhantes.
   {{< card link="about" title="Sobre" icon="user" >}}
   {{< card link="projects" title="Projetos" icon="briefcase" >}}
   {{< card link="blog" title="Blog" icon="rss" >}}
-  {{< card link="livros" title="Livros" icon="book-open" >}}
+  {{< card link="simple-books" title="Livros" icon="book-open" >}}
 {{< /cards >}}
 
 
