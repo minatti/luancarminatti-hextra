@@ -1,6 +1,6 @@
 ---
 date: '2025-07-31T18:42:18-03:00'
-draft: true
+draft: false
 title: 'Livros'
 ---
 

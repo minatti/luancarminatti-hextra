@@ -1,11 +1,7 @@
-baseURL: https://minatti.github.io/luancarminatti-hextra/
+baseURL: "https://minatti.github.io/luancarminatti-hextra/"
 title: Luan Carminatti
-theme: hextra
-languageCode: pt-br
-enableEmoji: true
-enableInlineShortcodes: true
-enableGitInfo: true
-enableRobotsTXT: true
+theme: "hextra"
+languageCode: "pt-br"
 publishDir: "docs"
 
 # Idiomas suportados
