@@ -8,7 +8,7 @@ title: 'Projects'
 > Em breve projetos acadêmicos e profissionais...
 
 {{< cards >}}
-  {{< card link="/" title="Image Card" image="#" subtitle="Exemplo1" >}}
-    {{< card link="/" title="Image Card" image="#" subtitle="Exemplo2" >}}
-      {{< card link="/" title="Image Card" image="#" subtitle="Exemplo3" >}}
+  {{< card link="#" title="Image Card" image="#" subtitle="Exemplo1" >}}
+    {{< card link="#" title="Image Card" image="#" subtitle="Exemplo2" >}}
+      {{< card link="#" title="Image Card" image="#" subtitle="Exemplo3" >}}
 {{< /cards >}}
