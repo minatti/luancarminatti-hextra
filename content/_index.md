@@ -16,7 +16,7 @@ e conectar pessoas com interesses semelhantes.
 
 {{< cards >}}
   {{< card link="https://www.linkedin.com/in/luan-carminatti95/" title="Linkedin" icon="linkedin" >}}
-    {{< card link="" title="GitHub" icon="github" >}}
+    {{< card link="https://github.com/minatti" title="GitHub" icon="github" >}}
 {{< /cards >}}
 
 **Navegue por**
