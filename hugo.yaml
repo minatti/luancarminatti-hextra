@@ -26,6 +26,9 @@ menu:
   - name: Projetos
     pageRef: /projects/
     weight: 2
+  - name: Blog
+    pageRef: /blog/
+    weight: 3
   - name: "Contato ↗"
     url: "https://wa.me/5551981383678"
     weight: 4
