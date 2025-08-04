@@ -1,16 +1,26 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-date: {{ .Date }}
+title: 'Como Criar Seu Portfolio Com Hugo'
+date: 2025-08-03T19:25:10-03:00
 draft: true
 description: ""
+type: "blog" # Ou 'post', 'page', dependendo de como você organiza no Hextra
 tags:
+  - Hugo
+  - StaticSiteGenerator
+  - GitHubPages
+  - DesenvolvimentoWeb
+  - Portfólio
+  - CarreiraDev
+  - FrontEnd
+  - WebPerformance
+  - Tutorial
 categories:
+  - Desenvolvimento Web # Escolha uma ou duas categorias principais
+  - Carreira
   - Tutorial
 featuredImage: ""
 hideDate: false
 ---
-
-# {{ replace .File.ContentBaseName "-" " " | title }}
 
 ## 🎯 O que vamos construir
 

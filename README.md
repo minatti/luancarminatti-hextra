@@ -18,11 +18,10 @@ O repositório **archetypes** contém modelos prontos de archetypes para facilit
 
 ## Como usar
 
-1. Copie os arquivos para a pasta `/archetypes/` do seu projeto Hugo.
+1. Copie os arquivos para a pasta `/archetypes/` do seu projeto Hugo (certifique de estar no dir raiz do projeto).
 2. Gere novos conteúdos com:
    ```bash
-   hugo new tutorial/nome-do-tutorial.md
-   hugo new artigo/nome-do-artigo.md
+   hugo new --kind tutorial blog/nome-da-postagem.md
    ```
 3. Preencha os conteúdos seguindo os comentários e seções pré-definidas.
 
