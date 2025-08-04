@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luan Carminatti – CarreiraDev</title>
+    <link>http://localhost:1313/tags/carreiradev/</link>
+    <description>Recent content in CarreiraDev on Luan Carminatti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 03 Aug 2025 19:25:10 -0300</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/tags/carreiradev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Como Criar Seu Portfolio Com Hugo</title>
+      <link>http://localhost:1313/blog/como-criar-seu-portfolio-com-hugo/</link>
+      <pubDate>Sun, 03 Aug 2025 19:25:10 -0300</pubDate>
+      
+      <guid>http://localhost:1313/blog/como-criar-seu-portfolio-com-hugo/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;🎯 O que vamos construir&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-o-que-vamos-construir&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-o-que-vamos-construir&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Descreva em 1 parágrafo o resultado final.&lt;/p&gt;
+&lt;h2&gt;📋 Pré-requisitos&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-pré-requisitos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-pr%c3%a9-requisitos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Ferramenta X instalada&lt;/li&gt;
+&lt;li&gt;Conhecimento básico em Y&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🛠️ Passo a passo&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-passo-a-passo&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-passo-a-passo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. Instalação&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-instalação&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-instala%c3%a7%c3%a3o&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h3&gt;2. Configuração&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-configuração&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-configura%c3%a7%c3%a3o&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h3&gt;3. Execução&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-execução&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-execu%c3%a7%c3%a3o&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h2&gt;✅ Resultado final&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-resultado-final&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-resultado-final&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Inclua imagem, gif ou embed do resultado.&lt;/p&gt;
+&lt;h2&gt;🧩 Possíveis erros&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-possíveis-erros&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-poss%c3%adveis-erros&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Erro comum 1 → Solução&lt;/li&gt;
+&lt;li&gt;Erro comum 2 → Solução&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;🔗 Links úteis&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-links-úteis&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-links-%c3%bateis&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;&#34; &gt;Docs oficial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
