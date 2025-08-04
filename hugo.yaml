@@ -3,7 +3,14 @@ title: Luan Carminatti
 theme: "hextra"
 languageCode: "pt-br"
 publishDir: "docs"
-
+outputs:
+  home: [HTML, RSS]
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+enableEmoji: true
+enableRobotsTXT: true
 # Idiomas suportados
 defaultContentLanguage: pt-br
 languages:
@@ -48,7 +55,11 @@ menu:
       icon: rss
       
 params:
-  description: Luan Carminatti - Desenvolvedor Fullstack, entusiasta de tecnologia e apaixonado por compartilhar conhecimento.
+  author:
+    name: Luan Carminatti
+    url: "https://luancarminatti.com.br"
+    email: "luancarminatt@gmail.com"
+  description: "Analista, Desenvolvedor Fullstack, entusiasta de tecnologia e apaixonado por compartilhar conhecimento."
   keywords: ["luan carminatti", "frontend developer", "backend developer", "tecnologia", "blog", "hugo"]
   theme:
     default: system

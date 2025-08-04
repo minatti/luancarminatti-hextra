@@ -11,13 +11,13 @@ tags:
   - DesenvolvimentoWeb
   - Portfólio
   - CarreiraDev
-  - FrontEnd
   - WebPerformance
   - Tutorial
 categories:
   - Desenvolvimento Web # Escolha uma ou duas categorias principais
   - Carreira
   - Tutorial
+slug: {{ .File.BaseFileName }}
 featuredImage: ""
 hideDate: false
 ---

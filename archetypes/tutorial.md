@@ -6,6 +6,7 @@ description: ""
 tags:
 categories:
   - Tutorial
+slug: {{ .File.BaseFileName }}s
 featuredImage: ""
 hideDate: false
 ---
