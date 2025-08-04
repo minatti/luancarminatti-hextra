@@ -1,8 +1,8 @@
 # Meu portfólio com o tema hextra.
 
-[Documentação:] (https://imfing.github.io/hextra/docs/)
+[Documentação](https://imfing.github.io/hextra/docs/)
 
-# Trabalhando com Modelos de Archetypes para Hugo (Tema Hextra)
+## Trabalhando com Modelos de Archetypes para Hugo (Tema Hextra)
 
 O repositório **archetypes** contém modelos prontos de archetypes para facilitar a criação de diferentes tipos de conteúdo técnico e educacional em projetos com Hugo + Hextra.
 
