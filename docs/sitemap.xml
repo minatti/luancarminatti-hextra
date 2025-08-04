@@ -2,67 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/luancarminatti-hextra/categories/carreira/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/tags/carreiradev/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/categories/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/blog/como-criar-seu-portfolio-com-hugo/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/categories/desenvolvimento-web/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/tags/desenvolvimentoweb/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/tags/frontend/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/tags/githubpages/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/tags/hugo/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/tags/portf%C3%B3lio/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/tags/staticsitegenerator/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/tags/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/categories/tutorial/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/tags/tutorial/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/tags/webperformance/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/blog/</loc>
+    <loc>https://luancarminatti.com.br/blog/</loc>
     <lastmod>2025-07-31T20:05:43-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/blog/primeiro-post/</loc>
+    <loc>https://luancarminatti.com.br/blog/primeiro-post/</loc>
     <lastmod>2025-07-31T20:05:24-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/projects/</loc>
+    <loc>https://luancarminatti.com.br/projects/</loc>
     <lastmod>2025-07-31T18:59:47-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/simple-books/</loc>
+    <loc>https://luancarminatti.com.br/simple-books/</loc>
     <lastmod>2025-07-31T18:42:18-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/about/</loc>
+    <loc>https://luancarminatti.com.br/about/</loc>
     <lastmod>2025-07-31T16:49:43-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/luancarminatti-hextra/</loc>
+    <loc>https://luancarminatti.com.br/</loc>
     <lastmod>2025-07-31T16:30:53-03:00</lastmod>
+  </url><url>
+    <loc>https://luancarminatti.com.br/categories/</loc>
+  </url><url>
+    <loc>https://luancarminatti.com.br/tags/</loc>
   </url>
 </urlset>
