@@ -17,7 +17,7 @@ categories:
   - Desenvolvimento Web # Escolha uma ou duas categorias principais
   - Carreira
   - Tutorial
-slug: {{ .File.BaseFileName }}
+slug: "Como Criar Seu Portfolio Com Hugo"
 featuredImage: ""
 hideDate: false
 ---
