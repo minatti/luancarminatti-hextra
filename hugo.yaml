@@ -62,7 +62,7 @@ params:
   description: "Analista, Desenvolvedor Fullstack, entusiasta de tecnologia e apaixonado por compartilhar conhecimento."
   keywords: ["luan carminatti", "frontend developer", "backend developer", "tecnologia", "blog", "hugo"]
   theme:
-    default: system
+    default: light
     displayToggle: true
   #Rodapé
   footer:

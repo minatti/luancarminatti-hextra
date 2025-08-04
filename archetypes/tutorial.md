@@ -6,7 +6,7 @@ description: ""
 tags:
 categories:
   - Tutorial
-slug: {{ .File.BaseFileName }}s
+slug: "Como criar seu Portfólio com o Hugo"
 featuredImage: ""
 hideDate: false
 ---
