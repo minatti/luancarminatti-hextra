@@ -8,7 +8,7 @@ title: 'Sobre'
 
 **Desenvolvedor Fullstack (JS/Java) | Analista De Dados, Sistemas**
 
-Canoas, RS | [luancarminatt@gmail.com](mailto:luancarminatt@gmail.com) | [LinkedIn](https://www.linkedin.com/in/SEU_LINK_DO_LINKEDIN/) | [GitHub](https://github.com/minatti)
+Canoas, RS | [luancarminatt@gmail.com](mailto:luancarminatt@gmail.com) | [LinkedIn](https://www.linkedin.com/in/luan-carminatti95/) | [GitHub](https://github.com/minatti)
 
 ---
 
