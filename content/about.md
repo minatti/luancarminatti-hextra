@@ -6,7 +6,7 @@ title: 'Sobre'
 
 # Luan Carminatti
 
-**Desenvolvedor Fullstack (JS/Java) | Analista de Sistemas**
+**Desenvolvedor Fullstack (JS/Java) | Analista De Dados, Sistemas**
 
 Canoas, RS | [luancarminatt@gmail.com](mailto:luancarminatt@gmail.com) | [LinkedIn](https://www.linkedin.com/in/SEU_LINK_DO_LINKEDIN/) | [GitHub](https://github.com/minatti)
 
