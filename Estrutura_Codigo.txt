@@ -1,8 +1,13 @@
+Blog:
+
 blog
 _inicio.md
 livros.md
 projetos
 sobre.md
+
+hugo.yaml:
+
 baseURL: "https://luancarminatti.com.br/"
 title: Luan Carminatti
 theme: "hextra"
@@ -146,7 +151,12 @@ params:
       # date | lastmod | publishDate | title | weight
       sortBy: date
       sortOrder: desc # or asc
-      pagerSize: 10---
+      pagerSize: 10
+      
+      
+Inicio: /      
+      
+---
 date: '2025-07-31T16:30:53-03:00'
 draft: false
 title: 'Luan Carminatti'
@@ -183,13 +193,14 @@ e conectar pessoas com interesses semelhantes.
 
 
 
-
+Projetos:
 
 ---
 date: '2025-08-07T14:57:34-03:00'
 draft: true
 title: 'Projetos'
 ---
+
 
 
 > [!WARNING]

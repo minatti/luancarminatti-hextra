@@ -26,9 +26,6 @@ languages:
     wheight: 1
     menu:
       main:
-        - name: Início
-          pageRef: /pt-br/
-          weight: 0
         - name: Sobre
           pageRef: /sobre/
           weight: 1
@@ -67,9 +64,6 @@ languages:
     weight: 2
     menu:
       main:
-        - name: Home
-          pageRef: /
-          weight: 0
         - name: About
           pageRef: /about/
           weight: 1
