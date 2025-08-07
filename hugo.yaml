@@ -12,17 +12,18 @@ markup:
 enableEmoji: true
 enableRobotsTXT: true
 # Idiomas suportados
-defaultContentLanguage: pt-br
 languages:
   pt-br:
     languageName: Português
+    contentDir: "content/pt-br"
     weight: 1
     title: Luan Carminatti
-  #Desabilitado até ajustar todo conteúdo
-  # en:
-  #   languageName: English
-  #   weight: 2
-  #   title: Luan Carminatti
+  en:
+    languageName: English
+    contentDir: "content/en"
+    weight: 2
+    title: Luan Carminatti
+
 
 # Menu do topo de navegação
 menu:

@@ -1,68 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://localhost:1313/categories/carreira/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/carreiradev/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt-br/blog/como-criar-seu-portf%C3%B3lio-com-hugo/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/desenvolvimento-web/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/desenvolvimentoweb/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/githubpages/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/portf%C3%B3lio/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/staticsitegenerator/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/tutorial/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/tutorial/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/webperformance/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt-br/blog/</loc>
-    <lastmod>2025-07-31T20:05:43-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt-br/blog/primeiro-post/</loc>
-    <lastmod>2025-07-31T20:05:24-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt-br/projects/</loc>
-    <lastmod>2025-07-31T18:59:47-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt-br/simple-books/</loc>
-    <lastmod>2025-07-31T18:42:18-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt-br/about/</loc>
-    <lastmod>2025-07-31T16:49:43-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-31T16:30:53-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt-br/</loc>
-    <lastmod>2025-07-31T16:30:53-03:00</lastmod>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>http://localhost:1313/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/pt-br/sitemap.xml</loc>
+    
+      <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>
