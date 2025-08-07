@@ -1,0 +1,118 @@
+ls 
+archetypes
+assets
+content
+data
+docs
+Estrutura_Pastas1.txt
+hugo.yaml
+i18n
+layouts
+README.md
+resources
+static
+themes
+content/about.md
+content/_index.md
+content/simple-books.md
+
+content/blog:
+como-criar-seu-portfolio-com-hugo.md
+_index.md
+primeiro-post.md
+
+content/projects:
+_index.md
+baseURL: "https://luancarminatti.com.br/"
+title: Luan Carminatti
+theme: "hextra"
+languageCode: "pt-br"
+publishDir: "docs"
+outputs:
+  home: [HTML, RSS]
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+enableEmoji: true
+enableRobotsTXT: true
+# Idiomas suportados
+defaultContentLanguage: pt-br
+languages:
+  pt-br:
+    languageName: Português
+    weight: 1
+    title: Luan Carminatti
+  #Desabilitado até ajustar todo conteúdo
+  # en:
+  #   languageName: English
+  #   weight: 2
+  #   title: Luan Carminatti
+
+# Menu do topo de navegação
+menu:
+  main:
+  - name: Sobre
+    pageRef: /about/
+    weight: 1
+  - name: Projetos
+    pageRef: /projects/
+    weight: 2
+  - name: Blog
+    pageRef: /blog/
+    weight: 3
+  - name: "Contato ↗"
+    url: "https://wa.me/5551981383678"
+    weight: 4
+  - name: Procurar
+    weight: 5
+    params:
+      type: search
+  - name: GitHub
+    weight: 6
+    url: "https://github.com/minatti"
+    params:
+      icon: github
+  - name: RSS
+    weight: 7
+    url: "/index.xml"
+    params:
+      icon: rss
+      
+params:
+  author:
+    name: Luan Carminatti
+    url: "https://luancarminatti.com.br"
+    email: "luancarminatt@gmail.com"
+  description: "Analista, Desenvolvedor Fullstack, entusiasta de tecnologia e apaixonado por compartilhar conhecimento."
+  keywords: ["luan carminatti", "frontend developer", "backend developer", "tecnologia", "blog", "hugo"]
+  theme:
+    default: light
+    displayToggle: true
+  #Rodapé
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: true
+    width: normal
+  # mostra pela última modificação
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+  # Campo de busca
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      # Indexação de página por: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
+
+    blog:
+      list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or asc
+      pagerSize: 10
