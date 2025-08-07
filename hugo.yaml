@@ -10,6 +10,7 @@ markup:
       unsafe: true
 enableEmoji: true
 enableRobotsTXT: true
+enableInlineShortcodes: true
 
 # Idiomas suportados
 defaultContentLanguage: pt-BR
