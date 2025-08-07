@@ -1,7 +1,6 @@
 baseURL: "https://luancarminatti.com.br/"
 title: Luan Carminatti
 theme: "hextra"
-languageCode: "pt-br"
 publishDir: "docs"
 outputs:
   home: [HTML, RSS]
@@ -11,7 +10,13 @@ markup:
       unsafe: true
 enableEmoji: true
 enableRobotsTXT: true
+
 # Idiomas suportados
+defaultContentLanguage: "pt-br"
+defaultContentLanguageInSubdir: true
+# Define o idioma padrão como pt-br e cria subdiretórios para cada idioma
+# Isso permite que o site seja acessado em /pt-br/ e /en/
+
 languages:
   pt-br:
     languageName: Português
@@ -25,36 +30,67 @@ languages:
     title: Luan Carminatti
 
 
-# Menu do topo de navegação
-menu:
-  main:
-  - name: Sobre
-    pageRef: /about/
-    weight: 1
-  - name: Projetos
-    pageRef: /projects/
-    weight: 2
-  - name: Blog
-    pageRef: /blog/
-    weight: 3
-  - name: "Contato ↗"
-    url: "https://wa.me/5551981383678"
-    weight: 4
-  - name: Procurar
-    weight: 5
-    params:
-      type: search
-  - name: GitHub
-    weight: 6
-    url: "https://github.com/minatti"
-    params:
-      icon: github
-  - name: RSS
-    weight: 7
-    url: "/index.xml"
-    params:
-      icon: rss
-      
+# Menu do topo de navegação por idioma
+languages:
+  pt-br:
+    menu:
+      main:
+      - name: Sobre
+        pageRef: /sobre/
+        weight: 1
+      - name: Projetos
+        pageRef: /projetos/
+        weight: 2
+      - name: Blog
+        pageRef: /blog/
+        weight: 3
+      - name: "Contato ↗"
+        url: "https://wa.me/5551981383678"
+        weight: 4
+      - name: Procurar
+        weight: 5
+        params:
+          type: search
+      - name: GitHub
+        weight: 6
+        url: "https://github.com/minatti"
+        params:
+          icon: github
+      - name: RSS
+        weight: 7
+        url: "/index.xml"
+        params:
+          icon: rss
+    en:
+      menu:
+      main:
+      - name: About
+        pageRef: /en/about/
+        weight: 1
+      - name: Projects
+        pageRef: /en/projects/
+        weight: 2
+      - name: Blog
+        pageRef: /en/blog/
+        weight: 3
+      - name: "Contact ↗"
+        url: "https://wa.me/5551981383678"
+        weight: 4
+      - name: Search
+        weight: 5
+        params:
+          type: search
+      - name: GitHub
+        weight: 6
+        url: "https://github.com/minatti"
+        params:
+          icon: github
+      - name: RSS
+        weight: 7
+        url: "/index.xml"
+        params:
+          icon: rss
+
 params:
   author:
     name: Luan Carminatti

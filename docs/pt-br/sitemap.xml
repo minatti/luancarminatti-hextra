@@ -10,18 +10,8 @@
   </url><url>
     <loc>http://localhost:1313/pt-br/categories/</loc>
     <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt-br/categories/"
-                />
   </url><url>
-    <loc>http://localhost:1313/pt-br/blog/como-criar-seu-portf%C3%B3lio-com-hugo/</loc>
+    <loc>http://localhost:1313/pt-br/pt-br/blog/como-criar-seu-portf%C3%B3lio-com-hugo/</loc>
     <lastmod>2025-08-03T19:25:10-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pt-br/categories/desenvolvimento-web/</loc>
@@ -36,6 +26,9 @@
     <loc>http://localhost:1313/pt-br/tags/hugo/</loc>
     <lastmod>2025-08-03T19:25:10-03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/pt-br/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/pt-br/tags/portf%C3%B3lio/</loc>
     <lastmod>2025-08-03T19:25:10-03:00</lastmod>
   </url><url>
@@ -44,16 +37,6 @@
   </url><url>
     <loc>http://localhost:1313/pt-br/tags/</loc>
     <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt-br/tags/"
-                />
   </url><url>
     <loc>http://localhost:1313/pt-br/categories/tutorial/</loc>
     <lastmod>2025-08-03T19:25:10-03:00</lastmod>
@@ -64,32 +47,22 @@
     <loc>http://localhost:1313/pt-br/tags/webperformance/</loc>
     <lastmod>2025-08-03T19:25:10-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pt-br/blog/</loc>
+    <loc>http://localhost:1313/pt-br/pt-br/blog/</loc>
     <lastmod>2025-07-31T20:05:43-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pt-br/blog/primeiro-post/</loc>
+    <loc>http://localhost:1313/pt-br/pt-br/blog/primeiro-post/</loc>
     <lastmod>2025-07-31T20:05:24-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pt-br/projects/</loc>
+    <loc>http://localhost:1313/pt-br/pt-br/projects/</loc>
     <lastmod>2025-07-31T18:59:47-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pt-br/simple-books/</loc>
+    <loc>http://localhost:1313/pt-br/pt-br/simple-books/</loc>
     <lastmod>2025-07-31T18:42:18-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pt-br/about/</loc>
+    <loc>http://localhost:1313/pt-br/pt-br/about/</loc>
     <lastmod>2025-07-31T16:49:43-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pt-br/</loc>
+    <loc>http://localhost:1313/pt-br/pt-br/</loc>
     <lastmod>2025-07-31T16:30:53-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt-br/"
-                />
   </url>
 </urlset>
