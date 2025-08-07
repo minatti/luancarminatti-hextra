@@ -15,10 +15,10 @@ e conectar pessoas com interesses semelhantes.
 **Navegue por**
 
 {{< cards >}}
-  {{< card link="about" title="Sobre" icon="user" >}}
-  {{< card link="projects" title="Projetos" icon="briefcase" >}}
+  {{< card link="sobre" title="Sobre" icon="user" >}}
+  {{< card link="projetos" title="Projetos" icon="briefcase" >}}
   {{< card link="blog" title="Blog" icon="rss" >}}
-  {{< card link="simple-books" title="Livros" icon="book-open" >}}
+  {{< card link="livros" title="Livros" icon="book-open" >}}
 {{< /cards >}}
 
 
