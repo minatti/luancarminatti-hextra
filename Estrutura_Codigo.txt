@@ -1,0 +1,207 @@
+blog
+_inicio.md
+livros.md
+projetos
+sobre.md
+baseURL: "https://luancarminatti.com.br/"
+title: Luan Carminatti
+theme: "hextra"
+publishDir: "docs"
+outputs:
+  home: [HTML, RSS]
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+enableEmoji: true
+enableRobotsTXT: true
+
+# Idiomas suportados
+defaultContentLanguage: pt-BR
+defaultContentLanguageInSubdir: true
+disableDefaultLanguages: false
+# Define o idioma padrão como pt-br e cria subdiretórios para cada idioma
+# Isso permite que o site seja acessado em /pt-br/ e /en/
+languages:
+  pt-br:
+    contentDir: content/pt-br
+    disabled: true
+    languageCode: pt-BR
+    languageDirection: ltr
+    languageName: Português
+    params:
+      title: Luan Carminatti | Portfólio e Blog
+      subtitle: Analista, Desenvolvedor Fullstack, entusiasta de tecnologia e apaixonado por compartilhar conhecimento.
+    weight: 1
+  en:
+    contentDir: content/en
+    disabled: true
+    languageCode: en
+    languageDirection: ltr
+    languageName: English
+    params:
+      title: Luan Carminatti | Portfolio and Blog
+      subtitle: Analyst, Fullstack Developer, technology enthusiast and passionate about sharing knowledge.
+    weight: 2
+ 
+
+
+# Menu do topo de navegação por idioma
+languages:
+  pt-BR:
+    menu:
+      main:
+      - name: Início
+        pageRef: /pt-br/
+        weight: 0
+      - name: Sobre
+        pageRef: /sobre/
+        weight: 1
+      - name: Projetos
+        pageRef: /projetos/
+        weight: 2
+      - name: Blog
+        pageRef: /blog/
+        weight: 3
+      - name: "Contato ↗"
+        url: "https://wa.me/5551981383678"
+        weight: 4
+      - name: Procurar
+        weight: 5
+        params:
+          type: search
+      - name: GitHub
+        weight: 6
+        url: "https://github.com/minatti"
+        params:
+          icon: github
+      - name: RSS
+        weight: 7
+        url: "/index.xml"
+        params:
+          icon: rss
+    en:
+      menu:
+      main:
+      - name: About
+        pageRef: /about/
+        weight: 1
+      - name: Projects
+        pageRef: /projects/
+        weight: 2
+      - name: Blog
+        pageRef: /blog/
+        weight: 3
+      - name: "Contact ↗"
+        url: "https://wa.me/5551981383678"
+        weight: 4
+      - name: Search
+        weight: 5
+        params:
+          type: search
+      - name: GitHub
+        weight: 6
+        url: "https://github.com/minatti"
+        params:
+          icon: github
+      - name: RSS
+        weight: 7
+        url: "/index.xml"
+        params:
+          icon: rss
+
+params:
+  author:
+    name: Luan Carminatti
+    url: "https://luancarminatti.com.br"
+    email: "luancarminatt@gmail.com"
+  description: "Analista, Desenvolvedor Fullstack, entusiasta de tecnologia e apaixonado por compartilhar conhecimento."
+  keywords: ["luan carminatti", "frontend developer", "backend developer", "tecnologia", "blog", "hugo"]
+  theme:
+    default: light
+    displayToggle: true
+  #Rodapé
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: true
+    width: normal
+  # mostra pela última modificação
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+  # Campo de busca
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      # Indexação de página por: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
+
+    blog:
+      list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or asc
+      pagerSize: 10---
+date: '2025-07-31T16:30:53-03:00'
+draft: false
+title: 'Luan Carminatti'
+---
+
+Olá! 👋
+
+Aqui você encontrará meus projetos, 
+tutoriais, artigos, dicas e experiências sobre tecnologia, 
+carreira.
+Este espaço foi criado para compartilhar conhecimento, inspirar 
+e conectar pessoas com interesses semelhantes.
+
+**Navegue por**
+
+{{< cards >}}
+  {{< card link="about" title="Sobre" icon="user" >}}
+  {{< card link="projects" title="Projetos" icon="briefcase" >}}
+  {{< card link="blog" title="Blog" icon="rss" >}}
+  {{< card link="simple-books" title="Livros" icon="book-open" >}}
+{{< /cards >}}
+
+
+**Sociais**
+
+{{< cards >}}
+  {{< card link="https://www.linkedin.com/in/luan-carminatti95/" title="Linkedin" icon="linkedin" >}}
+    {{< card link="https://github.com/minatti" title="GitHub" icon="github" >}}
+{{< /cards >}}
+
+
+
+
+
+
+
+
+
+---
+date: '2025-08-07T14:57:34-03:00'
+draft: true
+title: 'Projetos'
+---
+
+
+> [!WARNING]
+> Em breve projetos acadêmicos e profissionais...
+
+{{< cards >}}
+  {{< card link="#" title="Projeto 1" image="https://placehold.co/600x400" subtitle="Exemplo1" >}}
+    {{< card link="#" title="Projeto 2" image="https://placehold.co/600x400" subtitle="Exemplo2" >}}
+      {{< card link="#" title="Projeto 3" image="https://placehold.co/600x400" subtitle="Exemplo3" >}}
+{{< /cards >}}---
+date: '2025-07-31T20:05:43-03:00'
+draft: false
+title: 'Blog'
+---
+
