@@ -1,7 +1,7 @@
 ---
 title: 'Como Criar Seu Portfólio Com Hugo'
 date: 2025-08-03T19:25:10-03:00
-draft: true 
+draft: false 
 description: ""
 type: "blog" # Ou 'post', 'page', dependendo de como você organiza no Hextra
 tags:
