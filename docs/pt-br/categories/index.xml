@@ -2,9 +2,13 @@
   <channel>
     <title>Luan Carminatti – Categories</title>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <link>http://localhost:1313/pt-br/categories/</link>
 =======
     <link>https://luancarminatti.com.br/pt-br/categories/</link>
+>>>>>>> dev
+=======
+    <link>http://localhost:1313/pt-br/categories/</link>
 >>>>>>> dev
     <description>Recent content in Categories on Luan Carminatti</description>
     <generator>Hugo -- gohugo.io</generator>
@@ -12,9 +16,13 @@
     <lastBuildDate>Sun, 03 Aug 2025 19:25:10 -0300</lastBuildDate>
     
 <<<<<<< HEAD
+<<<<<<< HEAD
 	  <atom:link href="http://localhost:1313/pt-br/categories/index.xml" rel="self" type="application/rss+xml" />
 =======
 	  <atom:link href="https://luancarminatti.com.br/pt-br/categories/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> dev
+=======
+	  <atom:link href="http://localhost:1313/pt-br/categories/index.xml" rel="self" type="application/rss+xml" />
 >>>>>>> dev
     
     

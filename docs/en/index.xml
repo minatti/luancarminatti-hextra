@@ -2,9 +2,13 @@
   <channel>
     <title>Luan Carminatti – Luan Carminatti</title>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <link>http://localhost:1313/en/</link>
 =======
     <link>https://luancarminatti.com.br/en/</link>
+>>>>>>> dev
+=======
+    <link>http://localhost:1313/en/</link>
 >>>>>>> dev
     <description>Recent content on Luan Carminatti</description>
     <generator>Hugo -- gohugo.io</generator>
@@ -12,9 +16,13 @@
     <lastBuildDate>Thu, 31 Jul 2025 16:30:53 -0300</lastBuildDate>
     
 <<<<<<< HEAD
+<<<<<<< HEAD
 	  <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
 =======
 	  <atom:link href="https://luancarminatti.com.br/en/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> dev
+=======
+	  <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
 >>>>>>> dev
     
     
@@ -24,6 +32,9 @@
     
     <item>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dev
       <title>How Create your Portfólio with Hugo</title>
       <link>http://localhost:1313/en/blog/how-create-your-portfolio-with-hugo/</link>
       <pubDate>Sun, 03 Aug 2025 19:25:10 -0300</pubDate>
@@ -37,17 +48,24 @@
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>First Post</title>
       <link>http://localhost:1313/en/blog/first-post/</link>
       <pubDate>Thu, 31 Jul 2025 20:05:24 -0300</pubDate>
       
       <guid>http://localhost:1313/en/blog/first-post/</guid>
 =======
+=======
+>>>>>>> dev
       <title>First Post</title>
-      <link>https://luancarminatti.com.br/en/blog/first-post/</link>
+      <link>http://localhost:1313/en/blog/first-post/</link>
       <pubDate>Thu, 31 Jul 2025 20:05:24 -0300</pubDate>
       
+<<<<<<< HEAD
       <guid>https://luancarminatti.com.br/en/blog/first-post/</guid>
+>>>>>>> dev
+=======
+      <guid>http://localhost:1313/en/blog/first-post/</guid>
 >>>>>>> dev
       <description>
         

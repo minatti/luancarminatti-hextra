@@ -3,9 +3,13 @@
   
   <sitemap>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <loc>http://localhost:1313/pt-br/sitemap.xml</loc>
 =======
     <loc>https://luancarminatti.com.br/pt-br/sitemap.xml</loc>
+>>>>>>> dev
+=======
+    <loc>http://localhost:1313/pt-br/sitemap.xml</loc>
 >>>>>>> dev
     
       <lastmod>2025-08-03T19:25:10-03:00</lastmod>
@@ -14,9 +18,13 @@
   
   <sitemap>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <loc>http://localhost:1313/en/sitemap.xml</loc>
 =======
     <loc>https://luancarminatti.com.br/en/sitemap.xml</loc>
+>>>>>>> dev
+=======
+    <loc>http://localhost:1313/en/sitemap.xml</loc>
 >>>>>>> dev
     
       <lastmod>2025-08-03T19:25:10-03:00</lastmod>

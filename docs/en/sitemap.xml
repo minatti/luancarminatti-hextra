@@ -3,6 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
 <<<<<<< HEAD
+<<<<<<< HEAD
+    <loc>http://localhost:1313/en/categories/carreira/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="http://localhost:1313/pt-br/categories/carreira/"
+=======
     <loc>http://localhost:1313/en/categories/carreira/</loc>
     <lastmod>2025-08-03T19:25:10-03:00</lastmod>
     <xhtml:link
@@ -13,6 +21,160 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="http://localhost:1313/en/categories/carreira/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/categories/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="http://localhost:1313/pt-br/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/categories/desenvolvimento-web/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="http://localhost:1313/pt-br/categories/desenvolvimento-web/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/desenvolvimento-web/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/githubpages/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="http://localhost:1313/pt-br/tags/githubpages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/githubpages/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/blog/how-create-your-portfolio-with-hugo/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/hugo/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="http://localhost:1313/pt-br/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/hugo/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/portf%C3%B3lio/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="http://localhost:1313/pt-br/tags/portf%C3%B3lio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/portf%C3%B3lio/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/staticsitegenerator/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="http://localhost:1313/pt-br/tags/staticsitegenerator/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/staticsitegenerator/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="http://localhost:1313/pt-br/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/techcarer/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/categories/tutorial/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="http://localhost:1313/pt-br/categories/tutorial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/tutorial/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/tutorial/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="http://localhost:1313/pt-br/tags/tutorial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/tutorial/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/webdeveloper/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/webperformance/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="http://localhost:1313/pt-br/tags/webperformance/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/webperformance/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/blog/</loc>
+    <lastmod>2025-07-31T20:05:43-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="http://localhost:1313/pt-br/blog/"
+>>>>>>> dev
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+<<<<<<< HEAD
                 href="http://localhost:1313/en/categories/carreira/"
                 />
   </url><url>
@@ -191,35 +353,47 @@
     <loc>http://localhost:1313/en/</loc>
 =======
                 href="https://luancarminatti.com.br/en/blog/"
+=======
+                href="http://localhost:1313/en/blog/"
+>>>>>>> dev
                 />
   </url><url>
-    <loc>https://luancarminatti.com.br/en/blog/first-post/</loc>
+    <loc>http://localhost:1313/en/blog/first-post/</loc>
     <lastmod>2025-07-31T20:05:24-03:00</lastmod>
   </url><url>
-    <loc>https://luancarminatti.com.br/en/projects/</loc>
+    <loc>http://localhost:1313/en/projects/</loc>
     <lastmod>2025-07-31T18:59:47-03:00</lastmod>
   </url><url>
-    <loc>https://luancarminatti.com.br/en/books/</loc>
+    <loc>http://localhost:1313/en/books/</loc>
     <lastmod>2025-07-31T18:42:18-03:00</lastmod>
   </url><url>
-    <loc>https://luancarminatti.com.br/en/about/</loc>
+    <loc>http://localhost:1313/en/about/</loc>
     <lastmod>2025-07-31T16:49:43-03:00</lastmod>
   </url><url>
+<<<<<<< HEAD
     <loc>https://luancarminatti.com.br/en/</loc>
+>>>>>>> dev
+=======
+    <loc>http://localhost:1313/en/</loc>
 >>>>>>> dev
     <lastmod>2025-07-31T16:30:53-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-BR"
 <<<<<<< HEAD
+<<<<<<< HEAD
                 href="http://localhost:1313/pt-br/"
 =======
                 href="https://luancarminatti.com.br/pt-br/"
+>>>>>>> dev
+=======
+                href="http://localhost:1313/pt-br/"
 >>>>>>> dev
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
 <<<<<<< HEAD
                 href="http://localhost:1313/en/"
 =======
@@ -248,6 +422,9 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://luancarminatti.com.br/en/tags/"
+>>>>>>> dev
+=======
+                href="http://localhost:1313/en/"
 >>>>>>> dev
                 />
   </url>
