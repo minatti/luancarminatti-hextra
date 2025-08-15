@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Luan Carminatti – Desenvolvimento Web</title>
-    <link>https://luancarminatti.com.br/pt-br/categories/desenvolvimento-web/</link>
+    <link>http://localhost:1313/pt-br/categories/desenvolvimento-web/</link>
     <description>Recent content in Desenvolvimento Web on Luan Carminatti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-BR</language>
     <lastBuildDate>Sun, 03 Aug 2025 19:25:10 -0300</lastBuildDate>
     
-	  <atom:link href="https://luancarminatti.com.br/pt-br/categories/desenvolvimento-web/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/pt-br/categories/desenvolvimento-web/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Como Criar Seu Portfólio Com Hugo</title>
-      <link>https://luancarminatti.com.br/pt-br/blog/como-criar-seu-portf%C3%B3lio-com-hugo/</link>
+      <link>http://localhost:1313/pt-br/blog/como-criar-seu-portf%C3%B3lio-com-hugo/</link>
       <pubDate>Sun, 03 Aug 2025 19:25:10 -0300</pubDate>
       
-      <guid>https://luancarminatti.com.br/pt-br/blog/como-criar-seu-portf%C3%B3lio-com-hugo/</guid>
+      <guid>http://localhost:1313/pt-br/blog/como-criar-seu-portf%C3%B3lio-com-hugo/</guid>
       <description>
         
         
