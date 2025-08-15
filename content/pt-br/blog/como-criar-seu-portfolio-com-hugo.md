@@ -20,6 +20,7 @@ categories:
 slug: "Como Criar Seu Portfólio Com Hugo"
 featuredImage: ""
 hideDate: false
+comments: true
 ---
 
 > Um guia prático, direto ao ponto, com pitadas de experiência real e profundidade técnica explicada de forma suave e didática para você que quer criar sua própria presença digital.
@@ -195,3 +196,4 @@ Você saiu do zero absoluto e agora tem um portfólio profissional, com estrutur
 - [Docs oficial do Hugo – Content Management](https://gohugo.io/content-management/)
 - [Guia de Markdown – Markdown Guide (Basic Syntax)](https://www.markdownguide.org/basic-syntax/)
 - [Temas Hugo – Galeria oficial de temas](https://themes.gohugo.io/)
+
