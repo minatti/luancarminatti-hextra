@@ -2,26 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://luancarminatti.com.br/blog/</loc>
+    <loc>http://localhost:46175/categories/carreira/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46175/tags/carreiradev/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46175/categories/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46175/blog/como-criar-seu-portf%C3%B3lio-com-hugo/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46175/categories/desenvolvimento-web/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46175/tags/desenvolvimentoweb/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46175/tags/githubpages/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46175/tags/hugo/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46175/tags/portf%C3%B3lio/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46175/tags/staticsitegenerator/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46175/tags/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46175/categories/tutorial/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46175/tags/tutorial/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46175/tags/webperformance/</loc>
+    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46175/blog/</loc>
     <lastmod>2025-07-31T20:05:43-03:00</lastmod>
   </url><url>
-    <loc>https://luancarminatti.com.br/blog/primeiro-post/</loc>
+    <loc>http://localhost:46175/blog/primeiro-post/</loc>
     <lastmod>2025-07-31T20:05:24-03:00</lastmod>
   </url><url>
-    <loc>https://luancarminatti.com.br/projects/</loc>
+    <loc>http://localhost:46175/projects/</loc>
     <lastmod>2025-07-31T18:59:47-03:00</lastmod>
   </url><url>
-    <loc>https://luancarminatti.com.br/simple-books/</loc>
+    <loc>http://localhost:46175/simple-books/</loc>
     <lastmod>2025-07-31T18:42:18-03:00</lastmod>
   </url><url>
-    <loc>https://luancarminatti.com.br/about/</loc>
+    <loc>http://localhost:46175/about/</loc>
     <lastmod>2025-07-31T16:49:43-03:00</lastmod>
   </url><url>
-    <loc>https://luancarminatti.com.br/</loc>
+    <loc>http://localhost:46175/</loc>
     <lastmod>2025-07-31T16:30:53-03:00</lastmod>
-  </url><url>
-    <loc>https://luancarminatti.com.br/categories/</loc>
-  </url><url>
-    <loc>https://luancarminatti.com.br/tags/</loc>
   </url>
 </urlset>

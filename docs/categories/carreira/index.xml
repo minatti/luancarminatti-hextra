@@ -1,16 +1,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Luan Carminatti – Luan Carminatti</title>
-    <link>http://localhost:46175/</link>
-    <description>Recent content on Luan Carminatti</description>
+    <title>Luan Carminatti – Carreira</title>
+    <link>http://localhost:46175/categories/carreira/</link>
+    <description>Recent content in Carreira on Luan Carminatti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Thu, 31 Jul 2025 16:30:53 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 03 Aug 2025 19:25:10 -0300</lastBuildDate>
     
-	  <atom:link href="http://localhost:46175/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:46175/categories/carreira/index.xml" rel="self" type="application/rss+xml" />
     
     
       
+        
       
     
     
@@ -210,20 +211,6 @@
 &lt;li&gt;&lt;a href=&#34;https://www.markdownguide.org/basic-syntax/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Guia de Markdown – Markdown Guide (Basic Syntax)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Temas Hugo – Galeria oficial de temas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Primeiro Post</title>
-      <link>http://localhost:46175/blog/primeiro-post/</link>
-      <pubDate>Thu, 31 Jul 2025 20:05:24 -0300</pubDate>
-      
-      <guid>http://localhost:46175/blog/primeiro-post/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;strong&gt;Olá mundo!&lt;/strong&gt;&lt;/p&gt;
 
       </description>
     </item>
