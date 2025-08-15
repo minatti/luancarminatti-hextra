@@ -1,13 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Luan Carminatti – Luan Carminatti</title>
+<<<<<<< HEAD
     <link>http://localhost:1313/en/</link>
+=======
+    <link>https://luancarminatti.com.br/en/</link>
+>>>>>>> dev
     <description>Recent content on Luan Carminatti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 31 Jul 2025 16:30:53 -0300</lastBuildDate>
     
+<<<<<<< HEAD
 	  <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+=======
+	  <atom:link href="https://luancarminatti.com.br/en/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> dev
     
     
       
@@ -15,6 +23,7 @@
     
     
     <item>
+<<<<<<< HEAD
       <title>How Create your Portfólio with Hugo</title>
       <link>http://localhost:1313/en/blog/how-create-your-portfolio-with-hugo/</link>
       <pubDate>Sun, 03 Aug 2025 19:25:10 -0300</pubDate>
@@ -33,6 +42,13 @@
       <pubDate>Thu, 31 Jul 2025 20:05:24 -0300</pubDate>
       
       <guid>http://localhost:1313/en/blog/first-post/</guid>
+=======
+      <title>First Post</title>
+      <link>https://luancarminatti.com.br/en/blog/first-post/</link>
+      <pubDate>Thu, 31 Jul 2025 20:05:24 -0300</pubDate>
+      
+      <guid>https://luancarminatti.com.br/en/blog/first-post/</guid>
+>>>>>>> dev
       <description>
         
         
