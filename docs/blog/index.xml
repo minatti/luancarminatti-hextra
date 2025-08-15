@@ -1,226 +1,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Luan Carminatti – Blog</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://luancarminatti.com.br/blog/</link>
     <description>Recent content in Blog on Luan Carminatti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Thu, 31 Jul 2025 20:05:43 -0300</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://luancarminatti.com.br/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
       
         
       
     
-    
-    <item>
-      <title>Como Criar Seu Portfólio Com Hugo</title>
-      <link>http://localhost:1313/blog/como-criar-seu-portf%C3%B3lio-com-hugo/</link>
-      <pubDate>Sun, 03 Aug 2025 19:25:10 -0300</pubDate>
-      
-      <guid>http://localhost:1313/blog/como-criar-seu-portf%C3%B3lio-com-hugo/</guid>
-      <description>
-        
-        
-        &lt;blockquote&gt;
-  &lt;p&gt;Um guia prático, direto ao ponto, com pitadas de experiência real e profundidade técnica explicada de forma suave e didática para você que quer criar sua própria presença digital.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;h2&gt;🎯 O que vamos construir&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-o-que-vamos-construir&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#-o-que-vamos-construir&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Vamos criar um portfólio moderno, leve e escalável usando o &lt;strong&gt;framework Hugo&lt;/strong&gt; — um gerador de site estático (SSG) focado em desempenho e SEO. Esse site irá apresentar quem você é, seus projetos, seu blog técnico e um canal de contato, sendo sua vitrine profissional e porta de entrada para futuras oportunidades.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;1. O que é o framework Hugo?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-o-que-é-o-framework-hugo&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-o-que-%c3%a9-o-framework-hugo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Hugo é um &lt;strong&gt;Static Site Generator (SSG)&lt;/strong&gt;, ou seja, um gerador de site estático. Diferente de sites dinâmicos que requerem banco de dados e renderização no servidor, os sites estáticos são renderizados antes de serem publicados. O resultado? Um site absurdamente rápido, seguro e pronto para escalar com facilidade.&lt;/p&gt;
-&lt;h3&gt;1.1 Mas o que é um SSG?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;11-mas-o-que-é-um-ssg&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#11-mas-o-que-%c3%a9-um-ssg&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Imagine que você escreve seus textos em arquivos Markdown e o Hugo transforma tudo isso em HTML puro, já otimizadinho para SEO, com estrutura perfeita. Não há banco de dados, nem código sendo executado a cada visita. Apenas arquivos estáticos prontos para serem servidos diretamente para o navegador.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2. Por que usar Hugo e não criar um site do zero?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-por-que-usar-hugo-e-não-criar-um-site-do-zero&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-por-que-usar-hugo-e-n%c3%a3o-criar-um-site-do-zero&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Criar um site do zero exige tempo, conhecimento em HTML, CSS, JS, deploy, responsividade, SEO&amp;hellip; E se você puder focar no conteúdo e deixar a estrutura com quem já fez isso por você? Hugo resolve isso.&lt;/p&gt;
-&lt;p&gt;Com ele você:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Não precisa reinventar a roda.&lt;/li&gt;
-&lt;li&gt;Ganha tempo com temas prontos e bonitos.&lt;/li&gt;
-&lt;li&gt;Tem uma estrutura já pensada para performance e boas práticas.&lt;/li&gt;
-&lt;li&gt;Facilita o deploy (principalmente com GitHub Pages).&lt;/li&gt;
-&lt;li&gt;Garante um portfólio que carrega em milissegundos.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;3. Requisitos para começar a brincadeira&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-requisitos-para-começar-a-brincadeira&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-requisitos-para-come%c3%a7ar-a-brincadeira&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Antes de colocar a mão na massa, vamos garantir que você tem as ferramentas certas no seu ambiente Linux (Debian ou derivados):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Git&lt;/strong&gt; (para controle de versão e deploy)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hugo&lt;/strong&gt; (o motor do site)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Go&lt;/strong&gt; (linguagem base que o Hugo usa)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;4. Como importar temas prontos&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-como-importar-temas-prontos&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#4-como-importar-temas-prontos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Não comece do zero. A comunidade Hugo oferece &lt;strong&gt;centenas de temas prontos&lt;/strong&gt; que você pode usar como base. Isso acelera seu processo e evita perder tempo com detalhes visuais.&lt;/p&gt;
-&lt;p&gt;Para esse guia, vamos usar o tema &lt;a href=&#34;https://github.com/imfing/hextra&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hextra&lt;/strong&gt;&lt;/a&gt; — um tema simples, responsivo e ideal para quem quer um blog + portfólio sem dores de cabeça.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;5. O que é deploy?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;5-o-que-é-deploy&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#5-o-que-%c3%a9-deploy&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Deploy é o ato de publicar seu site na internet. É como tirar seu projeto da sua máquina local e colocá-lo no ar para o mundo ver.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;6. O que é GitHub Pages?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;6-o-que-é-github-pages&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#6-o-que-%c3%a9-github-pages&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;GitHub Pages é um serviço gratuito oferecido pelo GitHub que hospeda seu site diretamente de um repositório Git. Ideal para sites estáticos como o que vamos criar.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Gratuito&lt;/li&gt;
-&lt;li&gt;Suporte a HTTPS&lt;/li&gt;
-&lt;li&gt;Super rápido&lt;/li&gt;
-&lt;li&gt;Integrado com Git&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;7. Como fazer deploy no GitHub Pages?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;7-como-fazer-deploy-no-github-pages&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#7-como-fazer-deploy-no-github-pages&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Basicamente:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Você cria seu site localmente.&lt;/li&gt;
-&lt;li&gt;Faz o build com o Hugo.&lt;/li&gt;
-&lt;li&gt;Configura o &lt;code&gt;publishDir&lt;/code&gt; para &lt;code&gt;docs/&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Envia tudo para seu repositório.&lt;/li&gt;
-&lt;li&gt;Ativa o GitHub Pages na branch principal com a pasta &lt;code&gt;/docs&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;🛠️ Passo a passo&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-passo-a-passo&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#-passo-a-passo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. Instalando os requisitos no Linux&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-instalando-os-requisitos-no-linux&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-instalando-os-requisitos-no-linux&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt update
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install git golang hugo&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3&gt;2. Verificando se tudo foi instalado corretamente&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-verificando-se-tudo-foi-instalado-corretamente&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-verificando-se-tudo-foi-instalado-corretamente&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo version
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git version
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;go version&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Se tudo retornar com uma versão, você está pronto.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;3. Criando o projeto Hugo&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-criando-o-projeto-hugo&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-criando-o-projeto-hugo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd ~/Projetos/frontend/
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site meu-site-hextra --format&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;yaml
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd meu-site-hextra
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/imfing/hextra.git themes/hextra&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3&gt;4. Configurando o projeto&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-configurando-o-projeto&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#4-configurando-o-projeto&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Abra o arquivo &lt;code&gt;hugo.yaml&lt;/code&gt; e edite:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;baseURL&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://minatti.github.io/meu-blog-hextra/&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;publishDir&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;docs&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# canonifyurls: true  # (se precisar)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3&gt;5. Criando um post de teste&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;5-criando-um-post-de-teste&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#5-criando-um-post-de-teste&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new content/posts/meu-primeiro-post.md&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3&gt;6. Limpando e gerando o site&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;6-limpando-e-gerando-o-site&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#6-limpando-e-gerando-o-site&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rm -rf public/ docs/
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo --gc --cleanDestinationDir&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h3&gt;7. Fazendo o deploy no GitHub Pages&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;7-fazendo-o-deploy-no-github-pages&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#7-fazendo-o-deploy-no-github-pages&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Crie um repositório no GitHub com o mesmo nome que está usando.&lt;/li&gt;
-&lt;li&gt;Adicione o repositório remoto, faça commit e push:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin git@github.com:minatti/meu-blog-hextra.git
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;First commit&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -u origin main&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;No GitHub, em &lt;strong&gt;Settings &amp;gt; Pages&lt;/strong&gt;, aponte para a branch &lt;code&gt;main&lt;/code&gt; e pasta &lt;code&gt;/docs&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Pronto! Seu site está no ar.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;✅ Resultado final&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-resultado-final&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#-resultado-final&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Você saiu do zero absoluto e agora tem um portfólio profissional, com estrutura pensada para SEO, performance e extensão futura. Entendeu como funciona um site estático, explorou o ecossistema do Hugo, configurou e publicou no GitHub Pages. Além disso, construiu base para evoluir com blog, serviços e muito mais.&lt;/p&gt;
-&lt;h2&gt;🔗 Referências&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-referências&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#-refer%c3%aancias&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docs oficial do Hugo – Content Management&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.markdownguide.org/basic-syntax/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Guia de Markdown – Markdown Guide (Basic Syntax)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Temas Hugo – Galeria oficial de temas&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
     
     <item>
       <title>Primeiro Post</title>
-      <link>http://localhost:1313/blog/primeiro-post/</link>
+      <link>https://luancarminatti.com.br/blog/primeiro-post/</link>
       <pubDate>Thu, 31 Jul 2025 20:05:24 -0300</pubDate>
       
-      <guid>http://localhost:1313/blog/primeiro-post/</guid>
+      <guid>https://luancarminatti.com.br/blog/primeiro-post/</guid>
       <description>
         
         
