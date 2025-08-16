@@ -1,5 +1,5 @@
 baseURL: "https://luancarminatti.com.br/"
-title: Luan Carminatti
+title: luancarminati.com.br
 theme: "hextra"
 publishDir: "docs"
 outputs:
@@ -50,7 +50,7 @@ languages:
             icon: github
         - name: RSS
           weight: 7
-          url: "/index.xml"
+          url: "index.xml"
           params:
             icon: rss    
     params:
@@ -123,15 +123,32 @@ params:
       # full | forward | reverse | strict
       # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
       tokenize: forward
-
-    blog:
-      list:
+  blog:
+    list:
       displayTags: true
       # date | lastmod | publishDate | title | weight
       sortBy: date
-      sortOrder: desc # or asc
-      pagerSize: 10
+      sortOrder: desc # or "asc"
+      # Pagination
+      pagerSize: 20
 
+    article:
+      displayPagination: true
+
+  toc:
+    displayTags: true
+
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover
+
+  page:
+    # full (100%), wide (90rem), normal (80rem)
+    width: normal
+    # tabs:
+    #   sync: true
   comments:
     enable: false # Define como 'true' para habilitar comentários globalmente
     type: giscus # Especifica que o sistema de comentários é o Giscus
