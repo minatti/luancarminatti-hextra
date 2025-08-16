@@ -10,19 +10,6 @@
   </url><url>
     <loc>https://luancarminatti.com.br/pt-br/categories/</loc>
     <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-<<<<<<< HEAD
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://luancarminatti.com.br/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="https://luancarminatti.com.br/pt-br/categories/"
-                />
-=======
->>>>>>> dev
   </url><url>
     <loc>https://luancarminatti.com.br/pt-br/blog/como-criar-seu-portf%C3%B3lio-com-hugo/</loc>
     <lastmod>2025-08-03T19:25:10-03:00</lastmod>
@@ -47,74 +34,18 @@
   </url><url>
     <loc>https://luancarminatti.com.br/pt-br/tags/</loc>
     <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-<<<<<<< HEAD
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://luancarminatti.com.br/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="https://luancarminatti.com.br/pt-br/tags/"
-                />
-=======
->>>>>>> dev
   </url><url>
     <loc>https://luancarminatti.com.br/pt-br/categories/tutorial/</loc>
     <lastmod>2025-08-03T19:25:10-03:00</lastmod>
   </url><url>
-<<<<<<< HEAD
     <loc>https://luancarminatti.com.br/pt-br/tags/tutorial/</loc>
-=======
-    <loc>http://localhost:1313/pt-br/categories/desenvolvimento-web/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt-br/tags/desenvolvimentoweb/</loc>
->>>>>>> dev
     <lastmod>2025-08-03T19:25:10-03:00</lastmod>
   </url><url>
     <loc>https://luancarminatti.com.br/pt-br/tags/webperformance/</loc>
     <lastmod>2025-08-03T19:25:10-03:00</lastmod>
   </url><url>
-<<<<<<< HEAD
     <loc>https://luancarminatti.com.br/pt-br/blog/</loc>
     <lastmod>2025-07-31T20:05:43-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://luancarminatti.com.br/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="https://luancarminatti.com.br/pt-br/blog/"
-                />
-=======
-    <loc>http://localhost:1313/pt-br/tags/hugo/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt-br/tags/portf%C3%B3lio/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt-br/tags/staticsitegenerator/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt-br/tags/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt-br/categories/tutorial/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt-br/tags/tutorial/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt-br/tags/webperformance/</loc>
-    <lastmod>2025-08-03T19:25:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt-br/blog/</loc>
-    <lastmod>2025-07-31T20:05:43-03:00</lastmod>
->>>>>>> dev
   </url><url>
     <loc>https://luancarminatti.com.br/pt-br/blog/primeiro-post/</loc>
     <lastmod>2025-07-31T20:05:24-03:00</lastmod>
@@ -130,18 +61,5 @@
   </url><url>
     <loc>https://luancarminatti.com.br/pt-br/</loc>
     <lastmod>2025-07-31T16:30:53-03:00</lastmod>
-<<<<<<< HEAD
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://luancarminatti.com.br/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="https://luancarminatti.com.br/pt-br/"
-                />
-=======
->>>>>>> dev
   </url>
 </urlset>
