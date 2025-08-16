@@ -13,11 +13,9 @@ tags:
   - Portfólio
   - CarreiraDev
   - WebPerformance
-  - Tutorial
 categories:
   - Desenvolvimento Web # Escolha uma ou duas categorias principais
   - Carreira
-  - Tutorial
 hideDate: false
 comments: true
 ---
