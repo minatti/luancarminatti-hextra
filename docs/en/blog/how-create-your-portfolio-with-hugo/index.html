@@ -296,67 +296,7 @@
         href="/en/blog/first-post/"
         title="First Post"
         class="hx:flex hx:max-w-[50%] hx:items-center hx:gap-1 hx:py-4 hx:text-base hx:font-medium hx:text-gray-600 hx:transition-colors [word-break:break-word] hx:hover:text-primary-600 hx:dark:text-gray-300 hx:md:text-lg hx:ltr:pr-4 hx:rtl:pl-4"
-      ><svg class="hx:inline hx:h-5 hx:shrink-0 hx:ltr:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>First Post</a></div><script>
-  
-
-  function getHugoTheme() {
-    return localStorage.getItem("color-theme");
-  }
-  
-  function getGiscusTheme() {
-    let giscusTheme = "light";
-    if(getHugoTheme() == 'light') {
-      return giscusTheme.replace('dark', 'light');
-    } else {
-      return giscusTheme.replace('light', 'dark');
-    }
-  }
-
-  function setGiscusTheme() {
-    function sendMessage(message) {
-      const iframe = document.querySelector('iframe.giscus-frame');
-      if (!iframe) return;
-      iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-    }
-    sendMessage({
-      setConfig: {
-        theme: getGiscusTheme(),
-      },
-    });
-  }
-
-  document.addEventListener('DOMContentLoaded', function () {
-    const giscusAttributes = {
-      "src": "https://giscus.app/client.js",
-      "data-repo": "minatti\/luancarminatti-hextra",
-      "data-repo-id": "R_kgDOPWNM3Q",
-      "data-category": "General",
-      "data-category-id": "DIC_kwDOPWNM3c4Ct8Ax",
-      "data-mapping": "pathname",
-      "data-strict": "0",
-      "data-reactions-enabled": "1",
-      "data-emit-metadata": "0",
-      "data-input-position": "top",
-      "data-theme": getGiscusTheme(),
-      "data-lang": "en",
-      "crossorigin": "anonymous",
-      "async": "",
-    };
-
-    
-    const giscusScript = document.createElement("script");
-    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
-    document.getElementById('giscus').appendChild(giscusScript);
-
-    
-    const toggles = document.querySelectorAll(".theme-toggle");
-    if (toggles) {
-      toggles.forEach(toggle => toggle.addEventListener('click', setGiscusTheme));
-    }
-  });
-</script>
-
-<div id="giscus"></div></main>
+      ><svg class="hx:inline hx:h-5 hx:shrink-0 hx:ltr:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>First Post</a></div></main>
     </article>
   </div>
 

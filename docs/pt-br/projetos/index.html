@@ -341,67 +341,7 @@ Projeto 1Exemplo1 Projeto 2Exemplo2 Projeto 3Exemplo3">
         <div class="hx:mt-16"></div>
         
     <div class="hx:mt-12 hx:mb-8 hx:block hx:text-xs hx:text-gray-500 hx:ltr:text-right hx:rtl:text-left hx:dark:text-gray-400">Última modificação <time datetime="2025-07-31T18:59:47.000Z">julho 31, 2025</time></div>
-        <script>
-  
-
-  function getHugoTheme() {
-    return localStorage.getItem("color-theme");
-  }
-  
-  function getGiscusTheme() {
-    let giscusTheme = "light";
-    if(getHugoTheme() == 'light') {
-      return giscusTheme.replace('dark', 'light');
-    } else {
-      return giscusTheme.replace('light', 'dark');
-    }
-  }
-
-  function setGiscusTheme() {
-    function sendMessage(message) {
-      const iframe = document.querySelector('iframe.giscus-frame');
-      if (!iframe) return;
-      iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-    }
-    sendMessage({
-      setConfig: {
-        theme: getGiscusTheme(),
-      },
-    });
-  }
-
-  document.addEventListener('DOMContentLoaded', function () {
-    const giscusAttributes = {
-      "src": "https://giscus.app/client.js",
-      "data-repo": "minatti\/luancarminatti-hextra",
-      "data-repo-id": "R_kgDOPWNM3Q",
-      "data-category": "General",
-      "data-category-id": "DIC_kwDOPWNM3c4Ct8Ax",
-      "data-mapping": "pathname",
-      "data-strict": "0",
-      "data-reactions-enabled": "1",
-      "data-emit-metadata": "0",
-      "data-input-position": "top",
-      "data-theme": getGiscusTheme(),
-      "data-lang": "pt-BR",
-      "crossorigin": "anonymous",
-      "async": "",
-    };
-
-    
-    const giscusScript = document.createElement("script");
-    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
-    document.getElementById('giscus').appendChild(giscusScript);
-
-    
-    const toggles = document.querySelectorAll(".theme-toggle");
-    if (toggles) {
-      toggles.forEach(toggle => toggle.addEventListener('click', setGiscusTheme));
-    }
-  });
-</script>
-
-<div id="giscus"></div>
+        
       </main>
     </article>
   </div>

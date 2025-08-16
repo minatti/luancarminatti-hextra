@@ -133,13 +133,14 @@ params:
       pagerSize: 10
 
   comments:
-    enable: true # Define como 'true' para habilitar comentários globalmente
+    enable: false # Define como 'true' para habilitar comentários globalmente
     type: giscus # Especifica que o sistema de comentários é o Giscus
     giscus:
       repo: "minatti/luancarminatti-hextra" # SEU_USUARIO/SEU_REPOSITORIO (ex: "minatti/meu-site-hextra")
       repoId: "R_kgDOPWNM3Q" # SEU_REPO_ID (o ID que você copiou do giscus.app)
       category: "General" # SUA_CATEGORIA (o nome da categoria que você escolheu/criou)
       categoryId: "DIC_kwDOPWNM3c4Ct8Ax" # SEU_CATEGORY_ID (o ID da categoria que você copiou do giscus.app)
+      lang: "pt" # Idioma do Giscus (pt, en, etc.)
       # Opcional: Adicione outras configurações do Giscus aqui, se desejar, como:
       # mapping: "pathname" # Como o Giscus mapeia a página para a discussão (já configurado no giscus.app)
       # strict: "0"
@@ -147,4 +148,4 @@ params:
       # emitMetadata: "0"
       # inputPosition: "top"
       # theme: "preferred_color_scheme" # Tema do Giscus (light, dark, preferred_color_scheme, etc.)
-      #lang: "pt" # Idioma do Giscus (pt, en, etc.)
+     
