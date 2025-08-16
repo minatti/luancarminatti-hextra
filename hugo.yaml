@@ -1,5 +1,5 @@
 baseURL: "https://luancarminatti.com.br/"
-title: Luan Carminatti
+title: luancarminati.com.br
 theme: "hextra"
 publishDir: "docs"
 outputs:
@@ -24,7 +24,7 @@ languages:
     languageCode: pt-BR
     languageDirection: ltr
     languageName: Português
-    wheight: 1
+    weight: 1
     menu:
       main:
         - name: Sobre
@@ -50,49 +50,49 @@ languages:
             icon: github
         - name: RSS
           weight: 7
-          url: "/index.xml"
+          url: "index.xml"
           params:
             icon: rss    
     params:
       title: Luan Carminatti | Portfólio e Blog
       subtitle: Analista, Desenvolvedor Fullstack, entusiasta de tecnologia e apaixonado por compartilhar conhecimento. 
-  en:
-    contentDir: content/en
-    languageCode: en
-    languageDirection: ltr
-    languageName: English
-    weight: 2
-    menu:
-      main:
-        - name: About
-          pageRef: /about/
-          weight: 1
-        - name: Projects
-          pageRef: /projects/
-          weight: 2
-        - name: Blog
-          pageRef: /blog/
-          weight: 3
-        - name: Contact
-          url: "https://wa.me/5551981383678"
-          weight: 4
-        - name: Search
-          weight: 5
-          params:
-            type: search
-        - name: GitHub
-          weight: 6
-          url: "https://github.com/minatti"
-          params:
-            icon: github
-        - name: RSS
-          weight: 7
-          url: "/index.xml"
-          params:
-            icon: rss
-    params:
-      title: Luan Carminatti | Portfolio and Blog
-      subtitle: Analyst, Fullstack Developer, technology enthusiast and passionate about sharing knowledge.
+  # en:
+  #   contentDir: content/en
+  #   languageCode: en
+  #   languageDirection: ltr
+  #   languageName: English
+  #   weight: 2
+  #   menu:
+  #     main:
+  #       - name: About
+  #         pageRef: /about/
+  #         weight: 1
+  #       - name: Projects
+  #         pageRef: /projects/
+  #         weight: 2
+  #       - name: Blog
+  #         pageRef: /blog/
+  #         weight: 3
+  #       - name: Contact
+  #         url: "https://wa.me/5551981383678"
+  #         weight: 4
+  #       - name: Search
+  #         weight: 5
+  #         params:
+  #           type: search
+  #       - name: GitHub
+  #         weight: 6
+  #         url: "https://github.com/minatti"
+  #         params:
+  #           icon: github
+  #       - name: RSS
+  #         weight: 7
+  #         url: "/index.xml"
+  #         params:
+  #           icon: rss
+  #   params:
+  #     title: Luan Carminatti | Portfolio and Blog
+  #     subtitle: Analyst, Fullstack Developer, technology enthusiast and passionate about sharing knowledge.
  
 params:
   author:
@@ -123,23 +123,41 @@ params:
       # full | forward | reverse | strict
       # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
       tokenize: forward
-
-    blog:
-      list:
+  blog:
+    list:
       displayTags: true
       # date | lastmod | publishDate | title | weight
       sortBy: date
-      sortOrder: desc # or asc
-      pagerSize: 10
+      sortOrder: desc # or "asc"
+      # Pagination
+      pagerSize: 20
 
+    article:
+      displayPagination: true
+
+  toc:
+    displayTags: true
+
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover
+
+  page:
+    # full (100%), wide (90rem), normal (80rem)
+    width: normal
+    # tabs:
+    #   sync: true
   comments:
-    enable: true # Define como 'true' para habilitar comentários globalmente
+    enable: false # Define como 'true' para habilitar comentários globalmente
     type: giscus # Especifica que o sistema de comentários é o Giscus
     giscus:
       repo: "minatti/luancarminatti-hextra" # SEU_USUARIO/SEU_REPOSITORIO (ex: "minatti/meu-site-hextra")
       repoId: "R_kgDOPWNM3Q" # SEU_REPO_ID (o ID que você copiou do giscus.app)
       category: "General" # SUA_CATEGORIA (o nome da categoria que você escolheu/criou)
       categoryId: "DIC_kwDOPWNM3c4Ct8Ax" # SEU_CATEGORY_ID (o ID da categoria que você copiou do giscus.app)
+      lang: "pt" # Idioma do Giscus (pt, en, etc.)
       # Opcional: Adicione outras configurações do Giscus aqui, se desejar, como:
       # mapping: "pathname" # Como o Giscus mapeia a página para a discussão (já configurado no giscus.app)
       # strict: "0"
@@ -147,4 +165,4 @@ params:
       # emitMetadata: "0"
       # inputPosition: "top"
       # theme: "preferred_color_scheme" # Tema do Giscus (light, dark, preferred_color_scheme, etc.)
-      #lang: "pt" # Idioma do Giscus (pt, en, etc.)
+     

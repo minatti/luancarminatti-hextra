@@ -8,6 +8,7 @@
     
   </sitemap>
   
+<<<<<<< HEAD
   <sitemap>
     <loc>https://luancarminatti.com.br/en/sitemap.xml</loc>
     
@@ -15,4 +16,6 @@
     
   </sitemap>
   
+=======
+>>>>>>> dev
 </sitemapindex>

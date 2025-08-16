@@ -1,8 +1,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>Luan Carminatti – Hugo</title>
     <link>https://luancarminatti.com.br/pt-br/tags/hugo/</link>
     <description>Recent content in Hugo on Luan Carminatti</description>
+=======
+    <title>luancarminati.com.br – Hugo</title>
+    <link>http://localhost:1313/pt-br/tags/hugo/</link>
+    <description>Recent content in Hugo on luancarminati.com.br</description>
+>>>>>>> dev
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-BR</language>
     <lastBuildDate>Sun, 03 Aug 2025 19:25:10 -0300</lastBuildDate>
@@ -16,8 +22,13 @@
     
     
     <item>
+<<<<<<< HEAD
       <title>Como Criar Seu Portfólio Com Hugo</title>
       <link>https://luancarminatti.com.br/pt-br/blog/como-criar-seu-portf%C3%B3lio-com-hugo/</link>
+=======
+      <title>Como Criar Seu Portfolio Com Hugo</title>
+      <link>http://localhost:1313/pt-br/blog/como-criar-seu-portf%C3%B3lio-com-hugo/</link>
+>>>>>>> dev
       <pubDate>Sun, 03 Aug 2025 19:25:10 -0300</pubDate>
       
       <guid>https://luancarminatti.com.br/pt-br/blog/como-criar-seu-portf%C3%B3lio-com-hugo/</guid>

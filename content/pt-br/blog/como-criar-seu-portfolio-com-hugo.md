@@ -1,9 +1,10 @@
 ---
-title: 'Como Criar Seu Portfólio Com Hugo'
+title: 'Como Criar Seu Portfolio Com Hugo'
+slug: "Como Criar Seu Portfólio Com Hugo"
 date: 2025-08-03T19:25:10-03:00
-draft: false 
-description: ""
-type: "blog" # Ou 'post', 'page', dependendo de como você organiza no Hextra
+draft: false
+description: "Vamos criar um portfólio moderno, leve e escalável usando o framework Hugo com o tema hextra."
+type: blog # Ou 'post', 'page', dependendo de como você organiza no Hextra
 tags:
   - Hugo
   - StaticSiteGenerator
@@ -17,8 +18,6 @@ categories:
   - Desenvolvimento Web # Escolha uma ou duas categorias principais
   - Carreira
   - Tutorial
-slug: "Como Criar Seu Portfólio Com Hugo"
-featuredImage: ""
 hideDate: false
 comments: true
 ---
