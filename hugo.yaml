@@ -24,7 +24,7 @@ languages:
     languageCode: pt-BR
     languageDirection: ltr
     languageName: Português
-    wheight: 1
+    weight: 1
     menu:
       main:
         - name: Sobre
@@ -56,43 +56,43 @@ languages:
     params:
       title: Luan Carminatti | Portfólio e Blog
       subtitle: Analista, Desenvolvedor Fullstack, entusiasta de tecnologia e apaixonado por compartilhar conhecimento. 
-  en:
-    contentDir: content/en
-    languageCode: en
-    languageDirection: ltr
-    languageName: English
-    weight: 2
-    menu:
-      main:
-        - name: About
-          pageRef: /about/
-          weight: 1
-        - name: Projects
-          pageRef: /projects/
-          weight: 2
-        - name: Blog
-          pageRef: /blog/
-          weight: 3
-        - name: Contact
-          url: "https://wa.me/5551981383678"
-          weight: 4
-        - name: Search
-          weight: 5
-          params:
-            type: search
-        - name: GitHub
-          weight: 6
-          url: "https://github.com/minatti"
-          params:
-            icon: github
-        - name: RSS
-          weight: 7
-          url: "/index.xml"
-          params:
-            icon: rss
-    params:
-      title: Luan Carminatti | Portfolio and Blog
-      subtitle: Analyst, Fullstack Developer, technology enthusiast and passionate about sharing knowledge.
+  # en:
+  #   contentDir: content/en
+  #   languageCode: en
+  #   languageDirection: ltr
+  #   languageName: English
+  #   weight: 2
+  #   menu:
+  #     main:
+  #       - name: About
+  #         pageRef: /about/
+  #         weight: 1
+  #       - name: Projects
+  #         pageRef: /projects/
+  #         weight: 2
+  #       - name: Blog
+  #         pageRef: /blog/
+  #         weight: 3
+  #       - name: Contact
+  #         url: "https://wa.me/5551981383678"
+  #         weight: 4
+  #       - name: Search
+  #         weight: 5
+  #         params:
+  #           type: search
+  #       - name: GitHub
+  #         weight: 6
+  #         url: "https://github.com/minatti"
+  #         params:
+  #           icon: github
+  #       - name: RSS
+  #         weight: 7
+  #         url: "/index.xml"
+  #         params:
+  #           icon: rss
+  #   params:
+  #     title: Luan Carminatti | Portfolio and Blog
+  #     subtitle: Analyst, Fullstack Developer, technology enthusiast and passionate about sharing knowledge.
  
 params:
   author:
