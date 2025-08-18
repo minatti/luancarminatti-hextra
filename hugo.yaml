@@ -1,5 +1,5 @@
 baseURL: "https://luancarminatti.com.br/"
-title: luancarminati.com.br
+title: luancarminatti.com.br
 theme: "hextra"
 publishDir: "docs"
 outputs:
