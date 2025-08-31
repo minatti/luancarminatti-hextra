@@ -95,5 +95,6 @@ Ao longo deste artigo, vimos que a **Programação Orientada a Objetos** não é
 
 ## 6. 📚 Referências
 
-* [Alura: Programação Orientada a Objetos](https://www.alura.com.br/artigos/programacao-orientada-a-objetos-poo)
-* [Asimov Academy](https://hub.asimov.academy/blog/programacao-orientada-a-objetos-conceito-e-pilares/)
+* [Alura: Programação Orientada a Objetos](https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos)
+* [Asimov Academy: Programação Orientada a Objetos: Conceitos e Pilares](https://hub.asimov.academy/blog/programacao-orientada-a-objetos-conceito-e-pilares/)
+* [Devmedia: Orientação a Objetos - simples assim! ](https://www.devmedia.com.br/orientacao-a-objetos-simples-assim/3254)
