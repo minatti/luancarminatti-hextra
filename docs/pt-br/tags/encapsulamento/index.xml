@@ -1,0 +1,101 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>luancarminatti.com.br – Encapsulamento</title>
+    <link>http://localhost:1313/pt-br/tags/encapsulamento/</link>
+    <description>Recent content in Encapsulamento on luancarminatti.com.br</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Sun, 31 Aug 2025 10:55:24 -0300</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/pt-br/tags/encapsulamento/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Explicando Programação Orientada a Objetos Para Seu Gato</title>
+      <link>http://localhost:1313/pt-br/blog/explicando-programacao-orientada-a-objetos-para-seu-gato/</link>
+      <pubDate>Sun, 31 Aug 2025 10:55:24 -0300</pubDate>
+      
+      <guid>http://localhost:1313/pt-br/blog/explicando-programacao-orientada-a-objetos-para-seu-gato/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Resumo&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;resumo&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#resumo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Este artigo oferece um guia completo sobre a &lt;strong&gt;Programação Orientada a Objetos (POO)&lt;/strong&gt;. Usando uma abordagem didática e analogias do dia a dia, vamos desmistificar os conceitos-chave como classes, objetos, herança, polimorfismo e encapsulamento. O objetivo é que você compreenda a lógica por trás da POO e como ela é aplicada em sistemas reais, tornando seu aprendizado mais prático e eficiente.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;1. 🧠 Introdução&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1--introdução&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1--introdu%c3%a7%c3%a3o&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Já parou para pensar em como o mundo ao seu redor é organizado? Seus livros estão em uma estante, seus talheres estão em um armário e suas roupas estão em um guarda-roupa. A &lt;strong&gt;Programação Orientada a Objetos (POO)&lt;/strong&gt; é uma forma de pensar e organizar o código de um programa de maneira semelhante. Em vez de escrever tudo de forma linear, a POO nos permite agrupar dados e comportamentos em &amp;ldquo;objetos&amp;rdquo; que interagem entre si, refletindo a organização do mundo real.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;2. 🔍 Conceitos Fundamentais&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2--conceitos-fundamentais&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2--conceitos-fundamentais&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A POO se baseia em quatro pilares principais. Vamos entendê-los com analogias simples.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;2.1 Classe&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-classe&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#21-classe&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Imagine a &lt;strong&gt;classe&lt;/strong&gt; como a planta de uma casa. A planta não é a casa em si, mas descreve todas as suas características (número de quartos, banheiros, etc.) e o que se pode fazer nela (abrir portas, acender luzes). Na programação, uma &lt;strong&gt;classe&lt;/strong&gt; é um modelo ou molde que define as propriedades (atributos) e as ações (métodos) de um objeto.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;2.2 Objeto&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22-objeto&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#22-objeto&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Se a classe é a planta da casa, o &lt;strong&gt;objeto&lt;/strong&gt; é a casa construída. Um &lt;strong&gt;objeto&lt;/strong&gt; é uma instância real de uma classe. Você pode ter várias casas (objetos) construídas a partir da mesma planta (classe), mas cada uma delas é única, com sua própria cor, moradores e endereço.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;2.3 Herança&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;23-herança&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#23-heran%c3%a7a&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;A &lt;strong&gt;herança&lt;/strong&gt; é a capacidade de uma classe &amp;ldquo;filha&amp;rdquo; pegar emprestado as características de uma classe &amp;ldquo;pai&amp;rdquo;. Por exemplo, a classe &lt;code&gt;CarroEsportivo&lt;/code&gt; pode herdar as propriedades básicas da classe &lt;code&gt;Carro&lt;/code&gt;, como ter rodas, motor e portas, mas também ter suas próprias características, como a capacidade de atingir altas velocidades. Isso evita a repetição de código.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;2.4 Polimorfismo&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;24-polimorfismo&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#24-polimorfismo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;A palavra &lt;strong&gt;polimorfismo&lt;/strong&gt; significa &amp;ldquo;muitas formas&amp;rdquo;. Na programação, ele permite que objetos de diferentes classes respondam ao mesmo comando de maneiras distintas. Imagine que você tem uma classe &lt;code&gt;Animal&lt;/code&gt; e duas classes filhas: &lt;code&gt;Cachorro&lt;/code&gt; e &lt;code&gt;Gato&lt;/code&gt;. Ambas podem ter o método &lt;code&gt;emitirSom()&lt;/code&gt;, mas o &lt;code&gt;Cachorro&lt;/code&gt; vai latir e o &lt;code&gt;Gato&lt;/code&gt; vai miar. A ação é a mesma, mas a execução é diferente.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;2.5 Encapsulamento&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;25-encapsulamento&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#25-encapsulamento&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;O &lt;strong&gt;encapsulamento&lt;/strong&gt; é o ato de &amp;ldquo;esconder&amp;rdquo; os detalhes internos de um objeto. Pense em um controle remoto da televisão. Você sabe que, ao apertar o botão de volume, o som aumenta, mas não precisa saber o que acontece &amp;ldquo;dentro&amp;rdquo; do controle (os circuitos e componentes). O encapsulamento protege os dados internos do objeto, permitindo que eles sejam acessados apenas por meio de métodos específicos.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;3. 💡 Exemplos Práticos&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3--exemplos-práticos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3--exemplos-pr%c3%a1ticos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Vamos ver um exemplo simples em Java que ilustra alguns dos conceitos.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Definindo a classe &amp;#34;Carro&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Carro&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// Atributos (características)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  String cor;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; velocidade;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// Métodos (ações)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;acelerar&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;velocidade&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; 10;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Criando um objeto da classe Carro&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Main&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Carro meuCarro &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Carro();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    meuCarro.&lt;span style=&#34;color:#a6e22e&#34;&gt;cor&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;vermelho&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    meuCarro.&lt;span style=&#34;color:#a6e22e&#34;&gt;acelerar&lt;/span&gt;(); &lt;span style=&#34;color:#75715e&#34;&gt;// A velocidade agora é 10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;4. 🧱 Aplicações Reais&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4--aplicações-reais&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4--aplica%c3%a7%c3%b5es-reais&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A POO está presente em praticamente todos os sistemas de software modernos.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Jogos&lt;/strong&gt;: Em jogos como &amp;ldquo;The Sims&amp;rdquo;, cada personagem, objeto e casa é um objeto com atributos e métodos que definem seu comportamento.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sistemas Bancários&lt;/strong&gt;: Cada cliente, conta bancária e transação é um objeto, com suas próprias propriedades e ações.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aplicações Web&lt;/strong&gt;: Frameworks populares como o Spring (Java) e o Django (Python) são fortemente baseados em POO para organizar e estruturar o código.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;5. 🧾 Conclusão&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;5--conclusão&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5--conclus%c3%a3o&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ao longo deste artigo, vimos que a &lt;strong&gt;Programação Orientada a Objetos&lt;/strong&gt; não é apenas uma teoria complexa, mas uma metodologia poderosa que nos ajuda a organizar e estruturar o código de forma mais intuitiva e eficiente. Pensar em termos de objetos com características e comportamentos pode simplificar a resolução de problemas e tornar seus projetos mais escaláveis.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;6. 📚 Referências&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;6--referências&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6--refer%c3%aancias&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Alura: Programação Orientada a Objetos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hub.asimov.academy/blog/programacao-orientada-a-objetos-conceito-e-pilares/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Asimov Academy: Programação Orientada a Objetos: Conceitos e Pilares&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.devmedia.com.br/orientacao-a-objetos-simples-assim/3254&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Devmedia: Orientação a Objetos - simples assim! &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
