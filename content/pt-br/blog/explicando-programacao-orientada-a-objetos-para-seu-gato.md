@@ -1,8 +1,8 @@
 ---
 title: 'Explicando Programação Orientada a Objetos Para Seu Gato'
 date: 2025-08-31T10:55:24-03:00
-draft: true
-description: "Explicando Programação Orientada a Objetos para seu gato"
+draft: false
+description: "Este artigo oferece um guia completo sobre a Programação Orientada a Objetos (POO)."
 type: blog # Ou 'post', 'page', dependendo de como você organiza no Hextra
 tags:
   - POO
